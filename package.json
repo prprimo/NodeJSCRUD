@@ -6,8 +6,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node ./src/server.ts",
-    "start": "node --require ts-node/register index.ts",
-    "start1": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/server.ts",
+    "start": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/server.ts",
+    "start1": "node --require ts-node/register index.ts",
     "start2": "nodemon ./dist/server.js",
     "prod": "npm run build && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
